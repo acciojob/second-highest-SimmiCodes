@@ -14,10 +14,10 @@ function secondHighest(arr) {
     } else if (num > secondHighest && num < highest) {
       secondHighest = num;
     }
-    console.log(`num: ${num}, highest: ${highest}, secondHighest: ${secondHighest}`);
   }
 
-  if (secondHighest === -Infinity) {
+  // If highest and secondHighest are the same, it means all elements in the array are the same
+  if (highest === secondHighest) {
     return -Infinity;
   }
 
