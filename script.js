@@ -14,9 +14,9 @@ function secondHighest(arr) {
     } else if (num > secondHighest && num < highest) {
       secondHighest = num;
     }
+    console.log(`num: ${num}, highest: ${highest}, secondHighest: ${secondHighest}`);
   }
 
-  
   if (secondHighest === -Infinity) {
     return -Infinity;
   }
