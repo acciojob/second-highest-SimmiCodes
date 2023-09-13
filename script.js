@@ -20,6 +20,4 @@ function secondHighest(arr) {
   if (highest === secondHighest) {
     return -Infinity;
   }
-
-  return secondHighest;
 }
